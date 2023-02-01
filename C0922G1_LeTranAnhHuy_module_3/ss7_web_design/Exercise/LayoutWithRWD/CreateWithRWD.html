@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo layout với RWD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="row" style="background-color: darkgray; margin-top: 0px; top: -10px; position: relative; display: flex; height: 100%">
+    <div class="col-md-5 col-s-12 col-xs-12" id="right-header">
+        <ul class="row">
+            <li>Logo</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Project</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="col-md-6"></div>
+
+    <div id="left-header" class="col-md-1" style=" display: inline-block; align-self: center;">
+        <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                   class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd"
+        d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+  <path fill-rule="evenodd"
+        d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg></span>
+        <span style="font-weight: bold; font-size: 20px">Login</span>
+    </div>
+</header>
+
+
+<div class="row" style="height: 600px; top: -10px; position: relative;">
+    <div id="left-content" class="col-md-3 col-s-4">
+        <ul>
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+        </ul>
+    </div>
+
+    <div id="mid-content" class="col-md-6 col-s-8 col-xs-12">
+        <p style="font-size: 40px; font-weight: bold; margin-top: 1%">Welcome</p>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.</span>
+        <hr>
+        <p style="font-size: 40px; font-weight: bold; margin-top: 1%">Test</p>
+        <span>Lorem ipsum..</span>
+    </div>
+
+    <div id="right-content" class="col-md-3" style="background-color: whitesmoke">
+        <ul style="padding: 0px">
+            <li style="border: 1px solid;
+            font-weight: bold;
+            list-style-type: none;
+            padding: 15%;
+            margin: 15%;
+            text-align: center;
+            font-size: 40px">ADS</li>
+            <li style="border: 1px solid;
+            font-weight: bold;
+            list-style-type: none;
+            padding: 15%;
+            margin: 15%;
+            text-align: center;
+            font-size: 40px">ADS</li>
+        </ul>
+    </div>
+</div>
+
+<div class="row" style="background-color: darkgray;display: flex; position: relative; margin-top: -10px"><p style="text-align: center; width: 100%; font-weight: bold">Footer Text</p></div>
+</body>
+</html>
